@@ -1,0 +1,10 @@
+name = input("Enter name: ")
+age = int(input("Enter age: "))
+lang = input("Enter favourite programming language: ")
+print("\n")
+
+print("===== Student Profile =====")
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Favourite Language: {lang}")
+print("===========================")
