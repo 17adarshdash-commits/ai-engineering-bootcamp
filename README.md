@@ -34,15 +34,20 @@ ai-engineering-bootcamp/
 
 ---
 
-# 📈 Progress
+## Progress
 
-## Python
-
+### Python
 - [x] Day 1
+- [x] Day 2
+- [x] Day 3
+- [x] Day 4
 
-## DSA
-
-- [x] Two Sum
+### DSA
+- [x] LC001 Two Sum
+- [x] LC217 Contains Duplicate
+- [x] LC242 Valid Anagram
+- [x] LC125 Valid Palindrome
+- [x] LC167 Two Sum II
 
 ---
 
