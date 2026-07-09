@@ -1,68 +1,134 @@
 # 🚀 AI Engineering Bootcamp
 
-> My journey from a 3rd-year B.Tech CSE (AI) student to becoming an AI Software Engineer.
+A structured 12-month journey to become an AI Engineer and Software Engineer.
+
+This repository documents my daily progress, projects, DSA practice, and AI engineering journey from fundamentals to production-ready AI applications.
 
 ---
 
-## 🎯 Goals
+# 📅 Progress
 
-- 🐍 Master Python
-- 🧩 Master Data Structures & Algorithms
-- 🗄️ Learn SQL & Databases
-- ⚙️ Learn Backend Development (FastAPI)
-- ☁️ Learn Docker & Cloud
-- 🤖 Learn Machine Learning
-- 🧠 Learn Deep Learning
-- 💬 Build LLM Applications
-- 🤖 Build AI Agents
-- 🚀 Build Production-Ready AI Projects
-- 💼 Prepare for Internships & Placements
+## ✅ Phase 1: Software Engineering Foundations
+
+### July — Python + DSA Foundations
+
+#### Python
+- ✅ Variables
+- ✅ Data Types
+- ✅ Input / Output
+- ✅ Operators
+- ✅ Strings
+- ✅ Lists
+- ✅ Tuples
+- ✅ Dictionaries
+- ✅ Sets
+- ✅ Loops
+- ✅ Functions
+- ✅ Exception Handling
+- ✅ Modules
+- ✅ File Handling
+
+#### DSA Patterns Learned
+
+- ✅ Arrays
+- ✅ Hashing
+- ✅ Two Pointers
+- ✅ Sliding Window
+- ✅ Stack
+- ✅ Binary Search
 
 ---
 
-# 📚 Repository Structure
+# 🏆 LeetCode Progress
+
+| Problem | Pattern |
+|---------|---------|
+| LC001 - Two Sum | Arrays |
+| LC217 - Contains Duplicate | Hashing |
+| LC242 - Valid Anagram | Hashing |
+| LC125 - Valid Palindrome | Two Pointers |
+| LC167 - Two Sum II | Two Pointers |
+| LC026 - Remove Duplicates from Sorted Array | Two Pointers |
+| LC121 - Best Time to Buy and Sell Stock | Single Pass |
+| LC020 - Valid Parentheses | Stack |
+| LC643 - Maximum Average Subarray I | Sliding Window |
+| LC704 - Binary Search | Binary Search |
+| LC035 - Search Insert Position | Binary Search |
+
+**Problems Solved:** **11**
+
+---
+
+# 📂 Repository Structure
 
 ```
-ai-engineering-bootcamp/
-│
-├── Python/
-├── DSA/
-├── Projects/
-├── Resources/
-└── README.md
+Python/
+DSA/
+Projects/
+Resources/
 ```
 
 ---
 
-## Progress
-
-### Python
-- [x] Day 1
-- [x] Day 2
-- [x] Day 3
-- [x] Day 4
-
-### DSA
-- [x] LC001 Two Sum
-- [x] LC217 Contains Duplicate
-- [x] LC242 Valid Anagram
-- [x] LC125 Valid Palindrome
-- [x] LC167 Two Sum II
-
----
-
-# 🛠️ Tech Stack (Growing Every Month)
+# 🛠️ Technologies
 
 - Python
-- Git & GitHub
+- Git
+- GitHub
 - VS Code
 
-> More technologies will be added as I progress through the bootcamp.
+---
+
+# 🎯 Current Goals
+
+- Complete Python Fundamentals
+- Master Core DSA Patterns
+- Build CLI Applications
+- Prepare for Backend Development
 
 ---
 
-# 📅 Started
+# 📌 Upcoming Projects
 
-**July 2026**
+- Calculator
+- BMI Calculator
+- Expense Tracker (CLI)
+- Student Profile Manager
+- Student Management API
+- House Price Prediction
+- Image Classifier
+- Chat with PDF (RAG)
+- AI Research Assistant
 
 ---
+
+# 📈 Roadmap
+
+### Phase 1
+- Python Fundamentals
+- DSA
+- Backend Development
+- Machine Learning
+- Deep Learning
+- NLP
+- LLM Engineering
+
+### Phase 2
+- AI Agents
+- Deployment
+- Full Stack AI
+- MLOps
+- Placement Preparation
+
+---
+
+## 📅 Current Status
+
+- ✅ Day 10 Completed
+- 🐍 Python Fundamentals: In Progress
+- 🧠 DSA Patterns Learned: 7
+- 🏆 LeetCode Problems Solved: 11
+
+---
+
+⭐ This repository is updated daily as I progress through my AI Engineering roadmap.
