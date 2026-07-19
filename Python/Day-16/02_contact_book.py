@@ -52,6 +52,5 @@ while True:
         break
 
     else:
-        print("Invalid Choice. Please pick 1, 2, 3, or 4.\n")
-        continue
+        print("Invalid Choice.")
 
