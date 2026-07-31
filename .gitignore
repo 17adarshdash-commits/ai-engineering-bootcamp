@@ -1,15 +1,10 @@
 # macOS
 .DS_Store
+__MACOSX/
 
 # Python
 __pycache__/
 *.pyc
-*.pyo
 
 # VS Code
 .vscode/
-
-# Virtual Environments
-venv/
-.venv/
-env/

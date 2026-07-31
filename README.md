@@ -1,207 +1,353 @@
-# 🚀 AI Engineering Bootcamp
+# AI Engineering Bootcamp
 
-A structured 12-month journey to become an AI Engineer and Software Engineer.
-
-This repository documents my daily progress, projects, DSA practice, and AI engineering journey from programming fundamentals to production-ready AI systems.
+> A structured 12-month journey to become a Software & AI Engineer through consistent daily practice, real-world projects, data structures & algorithms, backend development, machine learning, deep learning, LLM engineering, and AI systems.
 
 ---
 
-# 📅 Progress
+# About Me
 
-## ✅ Phase 1: Software Engineering Foundations
+Hi! I'm **Adarsh Dash**, a Computer Science student passionate about Software Engineering, Artificial Intelligence, and Machine Learning.
 
-### July — Python + DSA Foundations
+This repository documents my complete learning journey—from Python fundamentals to building production-ready AI applications. Every topic includes notes, coding exercises, LeetCode solutions, and projects to reinforce practical skills.
 
-#### 🐍 Python Topics Completed
-
-- ✅ Variables
-- ✅ Data Types
-- ✅ Input / Output
-- ✅ Operators
-- ✅ Strings
-- ✅ Lists
-- ✅ Tuples
-- ✅ Dictionaries
-- ✅ Sets
-- ✅ Conditional Statements
-- ✅ Loops
-- ✅ Functions
-- ✅ Exception Handling
-- ✅ Python Modules
-- ✅ Standard Library
-- ✅ File Handling
-- ✅ Object-Oriented Programming (OOP)
-- ✅ Encapsulation
-- ✅ Abstraction
-- ✅ Inheritance
-- ✅ Polymorphism
-- ✅ Menu-Driven Applications
-- ✅ Input Validation
-- ✅ Clean Code Principles
-- ✅ Modular Program Design
+My goal is to become a highly skilled Software & AI Engineer by consistently building projects and mastering computer science fundamentals.
 
 ---
 
-## 🧠 DSA Patterns Learned
-
-- ✅ Arrays
-- ✅ Hash Maps
-- ✅ Two Pointers
-- ✅ Sliding Window
-- ✅ Stack
-- ✅ Binary Search
-- ✅ Prefix Sum
-
----
-
-# 🏆 LeetCode Progress
-
-| # | Problem | Pattern |
-|---|---------|---------|
-| 1 | LC001 - Two Sum | Arrays |
-| 2 | LC217 - Contains Duplicate | Hash Map |
-| 3 | LC242 - Valid Anagram | Hash Map |
-| 4 | LC125 - Valid Palindrome | Two Pointers |
-| 5 | LC167 - Two Sum II | Two Pointers |
-| 6 | LC026 - Remove Duplicates from Sorted Array | Two Pointers |
-| 7 | LC121 - Best Time to Buy and Sell Stock | Single Pass |
-| 8 | LC020 - Valid Parentheses | Stack |
-| 9 | LC643 - Maximum Average Subarray I | Sliding Window |
-|10 | LC704 - Binary Search | Binary Search |
-|11 | LC035 - Search Insert Position | Binary Search |
-|12 | LC278 - First Bad Version | Binary Search |
-|13 | LC374 - Guess Number Higher or Lower | Binary Search |
-|14 | LC1480 - Running Sum of 1D Array | Prefix Sum |
-|15 | LC724 - Find Pivot Index | Prefix Sum |
-|16 | LC303 - Range Sum Query – Immutable | Prefix Sum |
-|17 | LC560 - Subarray Sum Equals K | Prefix Sum + Hash Map |
-|18 | LC1732 - Find the Highest Altitude | Prefix Sum |
-
-**Problems Solved:** **18**
-
----
-
-# 💻 Python Programs Built
-
-### Fundamentals
-
-- Calculator
-- BMI Calculator
-- Number Statistics
-- Word Counter
-
-### File Handling
-
-- Notes App
-- Student Records
-- Simple Logger
-- Todo List
-
-### Menu-Driven Applications
-
-- Contact Book
-- Student Database
-- Expense Tracker (Version 1)
-
----
-
-# 📂 Repository Structure
+# Repository Structure
 
 ```
-AI-Engineering-Bootcamp/
+ai-engineering-bootcamp/
 │
 ├── Python/
 │   ├── Day-01/
 │   ├── Day-02/
 │   ├── ...
-│   └── Day-16/
+│   └── Day-31/
 │
 ├── DSA/
 │   ├── Arrays/
-│   ├── HashMap/
+│   ├── Strings/
+│   ├── HashMaps/
 │   ├── TwoPointers/
-│   ├── SlidingWindow/
-│   ├── Stack/
-│   ├── BinarySearch/
-│   └── PrefixSum/
+│   ├── LinkedLists/
+│   ├── Recursion/
+│   └── ...
 │
 ├── Projects/
+│   ├── Calculator/
+│   ├── BMI-Calculator/
+│   ├── Expense-Tracker/
+│   ├── Student-Profile-Manager/
+│   ├── Library-Management-System/
+│   ├── Contact-Management-System/
+│   ├── Task-Management-System/
+│   └── File-Organizer/
 │
-└── Resources/
+├── Resources/
+└── README.md
 ```
 
 ---
 
-# 🛠️ Technologies
+# July 2026 Progress
+
+## Python Fundamentals
+
+- Variables & Data Types
+- Operators
+- Strings
+- Lists
+- Tuples
+- Sets
+- Dictionaries
+- Loops
+- Functions
+- File Handling
+- Modules
+- Recursion
+
+---
+
+## Data Structures & Algorithms
+
+- Arrays
+- Strings
+- Hash Maps
+- Two Pointers
+- Sliding Window (Introduction)
+- Binary Search (Introduction)
+- Linked Lists
+- Fast & Slow Pointers
+- Dummy Nodes
+- Recursion
+
+---
+
+## LeetCode Problems Solved
+
+### Arrays
+
+- Two Sum
+- Contains Duplicate
+
+### Strings
+
+- Valid Anagram
+- Valid Palindrome
+
+### Arrays / Greedy
+
+- Best Time to Buy and Sell Stock
+
+### Stack
+
+- Valid Parentheses
+
+### Arrays
+
+- Remove Duplicates from Sorted Array
+
+### Linked Lists
+
+- Reverse Linked List
+- Middle of Linked List
+- Linked List Cycle
+- Remove Linked List Elements
+- Remove Duplicates from Sorted List
+
+### Recursion
+
+- Fibonacci Number
+
+---
+
+# Projects
+
+## Calculator
+
+A command-line calculator supporting basic arithmetic operations.
+
+**Skills**
+
+- Functions
+- User Input
+- Conditionals
+
+---
+
+## BMI Calculator
+
+Calculates BMI and classifies users into standard BMI categories.
+
+**Skills**
+
+- Mathematical Calculations
+- Input Validation
+
+---
+
+## Expense Tracker
+
+Stores expenses, generates reports, and demonstrates persistent file handling.
+
+**Skills**
+
+- File Handling
+- Lists
+- Dictionaries
+
+---
+
+## Student Profile Manager
+
+A CRUD-based application for managing student information.
+
+**Skills**
+
+- CRUD Operations
+- Dictionaries
+- File Storage
+
+---
+
+## Library Management System
+
+A CLI application for managing books, borrowing, and returns.
+
+**Skills**
+
+- Data Management
+- File Handling
+- CRUD
+
+---
+
+## Contact Management System
+
+Manage contacts with searching, editing, and persistent storage.
+
+**Skills**
+
+- Search
+- CRUD
+- File Handling
+
+---
+
+## Task Management System
+
+A feature-rich task manager supporting searching, filtering, sorting, CSV export, backups, and reports.
+
+**Skills**
+
+- Modular Programming
+- CSV Handling
+- Data Validation
+- Searching
+- Sorting
+
+---
+
+## File Organizer
+
+Automatically categorizes files based on extensions and organizes them into folders.
+
+**Skills**
+
+- File System Operations
+- `os`
+- `shutil`
+- Error Handling
+
+---
+
+# Technologies Used
+
+## Programming Languages
 
 - Python
+
+## Tools
+
 - Git
 - GitHub
-- VS Code
+- Visual Studio Code
+
+## Python Concepts
+
+- Functions
+- Recursion
+- File Handling
+- Exception Handling
+- Modular Programming
+- Dictionaries
+- Lists
+- Tuples
+- Sets
+
+## Data Structures
+
+- Arrays
+- Strings
+- Hash Maps
+- Linked Lists
 
 ---
 
-# 🎯 Current Goals
+# Learning Roadmap
 
-- Complete Python Foundations
-- Master Core DSA Patterns
-- Build Production-Quality CLI Applications
-- Strengthen Problem Solving
-- Prepare for Backend Development
+## ✅ Phase 1 — Python & Programming Foundations
+
+- Python Fundamentals
+- DSA Basics
+- Git & GitHub
+- CLI Projects
+
+## 🔄 Phase 2 — Backend Development
+
+- Intermediate Python
+- Object-Oriented Programming
+- SQL
+- FastAPI
+- REST APIs
+
+## 🔄 Phase 3 — Data Analysis & Machine Learning
+
+- NumPy
+- Pandas
+- Data Visualization
+- Scikit-learn
+
+## 🔄 Phase 4 — Deep Learning
+
+- PyTorch
+- TensorFlow
+- Neural Networks
+- CNNs
+- RNNs
+
+## 🔄 Phase 5 — NLP & Transformers
+
+- Tokenization
+- Attention
+- Transformers
+- Hugging Face
+
+## 🔄 Phase 6 — LLM Engineering
+
+- Retrieval-Augmented Generation (RAG)
+- Vector Databases
+- Prompt Engineering
+- Fine-Tuning
+
+## 🔄 Phase 7 — AI Agents
+
+- Agent Frameworks
+- Tool Calling
+- Multi-Agent Systems
+
+## 🔄 Phase 8 — Deployment
+
+- Docker
+- CI/CD
+- Cloud Deployment
+- Monitoring
+
+## 🔄 Phase 9 — Full-Stack AI Applications
+
+- React
+- FastAPI
+- AI-powered Web Applications
 
 ---
 
-# 📌 Upcoming Projects
+# Current Statistics
 
-- ✅ Calculator
-- ✅ BMI Calculator
-- 🚧 Expense Tracker (CLI)
-- 🚧 Student Profile Manager
-- ⏳ Student Management API
-- ⏳ House Price Prediction
-- ⏳ Image Classifier
-- ⏳ Chat with PDF (RAG)
-- ⏳ AI Research Assistant
+| Category | Progress |
+|----------|---------:|
+| Days Completed | 31 |
+| Python Projects | 8 |
+| LeetCode Problems | 12 |
+| DSA Topics Covered | 9+ |
 
 ---
 
-# 📈 12-Month Roadmap
+# Goals
 
-## Phase 1
-
-- ✅ Python Fundamentals
-- 🔄 Data Structures & Algorithms
-- ⏳ Backend Development
-- ⏳ Machine Learning
-- ⏳ Deep Learning
-- ⏳ NLP
-- ⏳ LLM Engineering
-
-## Phase 2
-
-- ⏳ AI Agents
-- ⏳ Deployment
-- ⏳ Full Stack AI
-- ⏳ MLOps
-- ⏳ Placement Preparation
+- Build strong Software Engineering fundamentals
+- Master Data Structures & Algorithms
+- Become proficient in Backend Development
+- Learn Machine Learning and Deep Learning
+- Build production-ready AI applications
+- Develop expertise in LLMs and AI Agents
+- Create a professional software engineering portfolio
 
 ---
 
-# 📊 Current Status
+# Connect
 
-- ✅ Day 16 Completed
-- 🐍 Python Foundations: In Progress
-- 🧠 DSA Patterns Mastered: 7
-- 🏆 LeetCode Problems Solved: 18
-- 💻 Python Programs Built: 35+
-- 📂 GitHub Updated Daily
+If you're following a similar learning journey, feel free to explore the repository, use the projects for inspiration, and track your own progress alongside mine.
 
----
-
-# 🌟 Goal
-
-By the end of this roadmap I aim to become a Software Engineer and AI Engineer capable of building scalable backend systems, machine learning models, LLM-powered applications, AI agents, and production-ready AI software.
-
----
-
-⭐ This repository is updated daily as I progress through my AI Engineering roadmap.
+⭐ If you find this repository useful, consider starring it!
+```` memcite
