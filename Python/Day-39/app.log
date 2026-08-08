@@ -1,0 +1,13 @@
+2026-08-07 16:46:47,432 - logging_practice - INFO - Starting logging_practice.py
+2026-08-07 16:46:47,433 - logging_practice - DEBUG - This is a DEBUG message - detailed diagnostic info.
+2026-08-07 16:46:47,433 - logging_practice - INFO - This is an INFO message - normal program event.
+2026-08-07 16:46:47,433 - logging_practice - WARNING - This is a WARNING message - something unexpected happened.
+2026-08-07 16:46:47,433 - logging_practice - ERROR - This is an ERROR message - an operation failed.
+2026-08-07 16:46:47,433 - logging_practice - CRITICAL - This is a CRITICAL message - the program may not continue.
+2026-08-07 16:46:47,433 - logging_practice - ERROR - Caught an exception while dividing by zero.
+Traceback (most recent call last):
+  File "/Users/adarshdash17/Desktop/ai-engineering-bootcamp/Python/Day-39/logging_practice.py", line 43, in demonstrate_exception_logging
+    result = 10 / 0
+             ~~~^~~
+ZeroDivisionError: division by zero
+2026-08-07 16:46:47,435 - logging_practice - INFO - Finished logging_practice.py
