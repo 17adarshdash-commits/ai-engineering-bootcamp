@@ -1,58 +1,46 @@
 """
-Problem:
-141. Linked List Cycle
+Problem: 141. Linked List Cycle
 
 Difficulty:
 Easy
 
 Pattern:
-Fast & Slow Pointer (Floyd's Cycle Detection Algorithm)
+Linked List + Fast & Slow Pointers
 
 Problem:
-Given the head of a linked list, determine if the linked list has a cycle.
+Given head, the head of a linked list, determine if the linked list has a
+cycle in it.
 
-A cycle exists if a node can be reached again by continuously following the next pointers.
-
-Return True if there is a cycle.
-Otherwise, return False.
-
-Example 1:
+Example:
 
 Input:
-3 -> 2 -> 0 -> -4
+1 -> 2 -> 3 -> 4
      ^         |
-     |_________|
+     +---------+
 
 Output:
-True
-
-Example 2:
-
-Input:
-1 -> 2 -> None
-
-Output:
-False
+true
 
 Key Idea:
-Use two pointers moving at different speeds.
+Use two pointers moving through the list at different speeds:
+- slow moves 1 step at a time.
+- fast moves 2 steps at a time.
 
-The slow pointer moves one node at a time.
-The fast pointer moves two nodes at a time.
-
-If a cycle exists, the fast pointer will eventually catch up to the slow pointer.
-If there is no cycle, the fast pointer will reach the end of the list.
+If there is a cycle, fast will eventually "lap" slow and they will meet
+(slow == fast). If there is no cycle, fast reaches None first.
 
 Approach:
-1. Initialize slow and fast pointers at the head.
-2. Move slow one step and fast two steps.
-3. If slow and fast point to the same node, a cycle exists.
-4. If the fast pointer reaches None, there is no cycle.
+1. Initialize slow = head, fast = head.
+2. While fast and fast.next are not None:
+   - Move slow forward by 1.
+   - Move fast forward by 2.
+   - If slow == fast, a cycle exists -> return True.
+3. If the loop ends (fast reaches None), there is no cycle -> return False.
 
 Algorithm:
 - slow = head
 - fast = head
-- while fast and fast.next:
+- while fast is not None and fast.next is not None:
     slow = slow.next
     fast = fast.next.next
     if slow == fast:
@@ -66,9 +54,10 @@ Space Complexity:
 O(1)
 
 Key Takeaways:
-- The Fast & Slow Pointer technique detects cycles without extra memory.
-- The fast pointer gains one node on the slow pointer every iteration inside a cycle.
-- If there is no cycle, the fast pointer reaches the end of the list.
+- This is the classic "Floyd's Cycle Detection" (tortoise and hare) algorithm.
+- No extra data structure (like a set) is needed, so space stays O(1).
+- fast always reaches slow's old position or a cycle meeting point before
+  running off the end of the list, if a cycle exists.
 """
 
 
@@ -81,15 +70,10 @@ Key Takeaways:
 
 class Solution(object):
     def hasCycle(self, head):
-        """
-        :type head: ListNode
-        :rtype: bool
-        """
-
         slow = head
         fast = head
 
-        while fast and fast.next:
+        while fast is not None and fast.next is not None:
             slow = slow.next
             fast = fast.next.next
 
